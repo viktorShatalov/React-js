@@ -8,21 +8,13 @@ import { BrowserRouter, Route } from "react-router-dom";
 import {Provider} from 'react-redux';
 
 
-
-let renderEntireTree = (state) => {
-    ReactDOM.render
-        (
+    ReactDOM.render (
             <BrowserRouter>
                 <Provider store={store}>
                     <App />
                 </Provider>
             </BrowserRouter>, document.getElementById('root'));
-}
-renderEntireTree(store.getState());
-store.subscribe(() => {
-    let state = store.getState();
-    renderEntireTree(state);
-});
+
 
 
 
