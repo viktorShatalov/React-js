@@ -1,17 +1,9 @@
-
 const FOLLOW = 'FOLLOW';
 const UNFOLLOW = 'UNFOLLOW';
 const SET_USER = 'SET-USER';
 
-
-
 let initialState = {
-    
-    users: [
-        { id: 1,photoUrl:'https://images11.cosmopolitan.ru/upload/img_cache/668/66869e7d7ba0c7466fc900f00660cfd6_ce_750x497x0x88_fitted_740x0.jpg', fullName: 'awesome', status: 'whats up dog!', location: { city: 'kiev', country: 'ukraine' }, followed: true },
-        { id: 2,photoUrl:'https://images11.cosmopolitan.ru/upload/img_cache/668/66869e7d7ba0c7466fc900f00660cfd6_ce_750x497x0x88_fitted_740x0.jpg', fullName: 'awesome', status: 'whats up dog!', location: { city: 'kiev', country: 'ukraine' }, followed: true },
-        { id: 3,photoUrl:'https://images11.cosmopolitan.ru/upload/img_cache/668/66869e7d7ba0c7466fc900f00660cfd6_ce_750x497x0x88_fitted_740x0.jpg', fullName: 'awesome', status: 'whats up dog!', location: { city: 'kiev', country: 'ukraine' }, followed: false }
-    ],
+    users: [],
 };
 
 const usersReduser = (state = initialState, action) => {
