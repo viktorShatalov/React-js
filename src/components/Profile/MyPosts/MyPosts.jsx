@@ -2,38 +2,32 @@ import React from 'react';
 import s from './MyPosts.module.css';
 import Posts from './Post/Posts';
 
-class MyPosts extends React.Component {
-  constructor(props) {
-    super(props);
-    this.postsElements =
-    this.props.posts.map(p => <Posts message={p.messege} likesCount={p.likesCount} />);
-    this.newPostElement = React.createRef();
+const MyPosts = (props) => {
+  let postsElements =
+    props.posts.map(p => <Posts message={p.messege} likesCount={p.likesCount} />);
+  let newPostElement = React.createRef();
+  let addPost = () => {
+    props.AddPostActionCreator();
   }
- 
-  addPost = () => {
-    this.props.AddPostActionCreator();
+  let onPostChenge = () => {
+    let text = newPostElement.current.value;
+    props.UpdateNewPostText(text);
   }
-
-  onPostChenge = () => {
-    this.text = this.newPostElement.current.value;
-    this.props.UpdateNewPostText(this.text);
-  }
-
-  render() {
-    return <div className={s.item}>
+  return (
+    <div className={s.item}>
       <h3>My Post</h3>
       <div>
         <div>
-          <textarea onChange={this.onPostChenge} ref={this.newPostElement} value={this.props.newPostText} />
+          <textarea onChange={onPostChenge} ref={newPostElement} value={props.newPostText} />
         </div>
         <div>
-          <button onClick={this.addPost}>Add Post</button>
+          <button onClick={addPost}>Add Post</button>
         </div>
       </div>
       <div className={s.posts}>
-        {this.postsElements}
+        {postsElements}
       </div>
     </div>
-  }
+  )
 }
 export default MyPosts;

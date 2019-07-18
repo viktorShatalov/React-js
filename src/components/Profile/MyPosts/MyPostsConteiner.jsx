@@ -22,6 +22,5 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const MyPostsConteiner = connect(mapStateToProps, mapDispatchToProps)(MyPosts);
+export default  connect(mapStateToProps, mapDispatchToProps)(MyPosts);
 
-export default MyPostsConteiner;
