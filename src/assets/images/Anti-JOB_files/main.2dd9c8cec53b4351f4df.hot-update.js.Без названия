@@ -1,0 +1,56 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Profile/ProfileConteiner.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/Profile/ProfileConteiner.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Profile__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Profile */ "./src/components/Profile/Profile.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Redux/profile-reducer */ "./src/Redux/profile-reducer.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\ProfileConteiner.jsx";
+
+
+
+
+
+
+class ProfileContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    axios__WEBPACK_IMPORTED_MODULE_2__["get"]("https://social-network.samuraijs.com/api/1.0/profile/2").then(response => {
+      this.props.setUsersProfile(response.data);
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Profile__WEBPACK_IMPORTED_MODULE_1__["default"], Object.assign({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }));
+  }
+
+}
+
+let mapStateToProps = state => ({
+  A: 13
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, {
+  setUsersProfile: _Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_4__["setUsersProfile"]
+})(ProfileContainer));
+
+/***/ })
+
+})
+//# sourceMappingURL=main.2dd9c8cec53b4351f4df.hot-update.js.map

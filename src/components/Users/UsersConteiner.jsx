@@ -7,8 +7,7 @@ import {
     setCurrentPage,
     setTotalUsersCount,
     toggleIsFetching
-}
-    from '../../Redux/users-reduser';
+}from '../../Redux/users-reduser';
 import Users from './Users';
 import * as axios from 'axios';
 import Preloader from '../common/preloader/Preloader';

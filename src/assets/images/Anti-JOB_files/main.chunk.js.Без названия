@@ -1,0 +1,2778 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".app-wrapper {\n  display: grid;\n  grid-template-areas: \n  \"h h \"\n  \"n c\";\n  grid-template-rows: 42px 1fr;\n  grid-template-columns: 2fr 10fr;\n}\n.app-wrapper-content{\n  grid-area: c;\n  background-color: rgba(204, 204, 204, 0.349);\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Dialogs/Dialogs.module.css ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Dialogs_dialogs_items__1nvM5 {\r\n    padding: 10px;\r\n}\r\n\r\n.Dialogs_dialogs__UlMet {\r\n    display: grid;\r\n    grid-template-columns: 2fr 10fr;\r\n}\r\n\r\n.Dialogs_messeges__1UD9b {\r\n    padding: 10px;\r\n}\r\n\r\n\r\n\r\n.Dialogs_dialogs_items__1nvM5 .Dialogs_active__ae_FS {\r\n    color: gold;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"dialogs_items": "Dialogs_dialogs_items__1nvM5",
+	"dialogs": "Dialogs_dialogs__UlMet",
+	"messeges": "Dialogs_messeges__1UD9b",
+	"active": "Dialogs_active__ae_FS"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Header/Header.module.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Header_header__38eRA{\r\n  grid-area: h;\r\n  background-color: rgba(40, 81, 163, 0.808);\r\n}\r\n.Header_header__38eRA img {\r\n  width: 41px;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"header": "Header_header__38eRA"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Music/Music.module.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navbar/Nav.module.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Navbar/Nav.module.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Nav_nav__1pIS6{\r\n  grid-area: n;\r\n  padding: 20px;\r\n  background-color: rgba(204, 204, 204, 0.356);\r\n}\r\n.Nav_item__nx1O2 a{\r\n  color: black;\r\n  text-decoration: none;\r\n}\r\n.Nav_item__nx1O2 a.Nav_active__2Oyq_{\r\n  color: gold;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"nav": "Nav_nav__1pIS6",
+	"item": "Nav_item__nx1O2",
+	"active": "Nav_active__2Oyq_"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/News/News.module.css ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/MyPosts.module.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Profile/MyPosts/MyPosts.module.css ***!
+  \**************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".MyPosts_item__1oz69{\r\n    padding: 10px;\r\n}\r\n.MyPosts_posts__3F7Ce{\r\n    margin-top: 10px;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"item": "MyPosts_item__1oz69",
+	"posts": "MyPosts_posts__3F7Ce"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/Post/Posts.module.css":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Profile/MyPosts/Post/Posts.module.css ***!
+  \*****************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Posts_item__1DPxT{\r\n  color: aqua;\r\n}\r\n.Posts_item__1DPxT img {\r\n  width: 50px;\r\n  height: 50px;\r\n  border-radius: 30px;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"item": "Posts_item__1DPxT"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/Profile.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Profile/Profile.module.css ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Profile_content__2R1Za{\r\n  grid-area: c;\r\n  background-color: rgba(204, 204, 204, 0.356);\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"content": "Profile_content__2R1Za"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/ProfileInfo/ProfileInfo.module.css":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Profile/ProfileInfo/ProfileInfo.module.css ***!
+  \**********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".ProfileInfo_descriptionBlock__2JJ0E{\r\n  padding: 10px;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"descriptionBlock": "ProfileInfo_descriptionBlock__2JJ0E"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Settings/Settings.module.css ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Users/Users.module.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Users_ava__bq6wZ{\r\n    width: 50px;\r\n    height: 50px;\r\n}\r\n.Users_selectedPage__2DV_n {\r\n    font-weight: bold;\r\n    margin: 5px;\r\n}", ""]);
+
+// Exports
+exports.locals = {
+	"ava": "Users_ava__bq6wZ",
+	"selectedPage": "Users_selectedPage__2DV_n"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header/Header */ "./src/components/Header/Header.jsx");
+/* harmony import */ var _components_Navbar_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Navbar/Nav */ "./src/components/Navbar/Nav.jsx");
+/* harmony import */ var _components_Dialogs_DialogsConteiner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Dialogs/DialogsConteiner */ "./src/components/Dialogs/DialogsConteiner.jsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_Music_Music__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Music/Music */ "./src/components/Music/Music.jsx");
+/* harmony import */ var _components_News_News__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/News/News */ "./src/components/News/News.jsx");
+/* harmony import */ var _components_Settings_Settings__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Settings/Settings */ "./src/components/Settings/Settings.jsx");
+/* harmony import */ var _components_Users_UsersConteiner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersConteiner */ "./src/components/Users/UsersConteiner.jsx");
+/* harmony import */ var _components_Profile_ProfileConteiner__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Profile/ProfileConteiner */ "./src/components/Profile/ProfileConteiner.jsx");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+const App = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "app-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "app-wrapper-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/dialogs",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Dialogs_DialogsConteiner__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/profile",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Profile_ProfileConteiner__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/users",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Users_UsersConteiner__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/settings",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Settings_Settings__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/music",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Music_Music__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+    path: "/news",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_News_News__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/Redux/dialogs-reducer.js":
+/*!**************************************!*\
+  !*** ./src/Redux/dialogs-reducer.js ***!
+  \**************************************/
+/*! exports provided: sendMessege, UpdateNewMessegeCreator, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sendMessege", function() { return sendMessege; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdateNewMessegeCreator", function() { return UpdateNewMessegeCreator; });
+/* harmony import */ var D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread.js");
+
+const UPDATE_NEW_MESSEGE_BODY = "UPDATE-NEW-MESSEGE-BODY";
+const ADD_MESSEGE = 'ADD-MESSEGE';
+let initialState = {
+  dialogs: [{
+    id: 1,
+    name: 'Dima'
+  }, {
+    id: 2,
+    name: 'Sveta'
+  }, {
+    id: 3,
+    name: 'Genya'
+  }, {
+    id: 4,
+    name: 'Ghon'
+  }, {
+    id: 5,
+    name: 'Igor'
+  }, {
+    id: 6,
+    name: 'Jhack'
+  }],
+  messeges: [{
+    id: 1,
+    messege: 'Hi'
+  }, {
+    id: 2,
+    messege: 'Hello'
+  }, {
+    id: 3,
+    messege: 'yo'
+  }, {
+    id: 4,
+    messege: 'Yo'
+  }, {
+    id: 5,
+    messege: 'Yo'
+  }]
+};
+
+const dialogsReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'UPDATE-NEW-MESSEGE-BODY':
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        newMessegeBody: action.newMessege
+      });
+
+    case 'ADD-MESSEGE':
+      let newMessege = state.newMessegeBody;
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        newMessegeBody: '',
+        messeges: [...state.messeges, {
+          id: 6,
+          messege: newMessege
+        }]
+      });
+
+    default:
+      return state;
+  }
+};
+
+const sendMessege = () => ({
+  type: ADD_MESSEGE
+});
+const UpdateNewMessegeCreator = body => ({
+  type: UPDATE_NEW_MESSEGE_BODY,
+  newMessege: body
+});
+/* harmony default export */ __webpack_exports__["default"] = (dialogsReducer);
+
+/***/ }),
+
+/***/ "./src/Redux/profile-reducer.js":
+/*!**************************************!*\
+  !*** ./src/Redux/profile-reducer.js ***!
+  \**************************************/
+/*! exports provided: AddPostActionCreator, UpdateNewPostText, setUsersProfile, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddPostActionCreator", function() { return AddPostActionCreator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdateNewPostText", function() { return UpdateNewPostText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUsersProfile", function() { return setUsersProfile; });
+/* harmony import */ var D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread.js");
+
+const ADD_POST = 'ADD-POST';
+const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
+const SET_USER_PROFILE = 'SET_USER_PROFILE';
+let initialState = {
+  newPostText: '',
+  posts: [{
+    id: 1,
+    messege: ' post',
+    likesCount: 153333
+  }, {
+    id: 1,
+    messege: 'It my first post',
+    likesCount: 1
+  }, {
+    id: 1,
+    messege: 'agsgslga',
+    likesCount: 11
+  }, {
+    id: 2,
+    messege: 'hi,how are you?',
+    likesCount: 5
+  }],
+  profile: null
+};
+
+const profileReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'UPDATE-NEW-POST-TEXT':
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        newPostText: action.newText
+      });
+
+    case 'ADD-POST':
+      let newPost = {
+        id: 5,
+        messege: state.newPostText,
+        likesCount: 0
+      };
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        posts: [...state.posts, newPost],
+        newPostText: ''
+      });
+
+    case SET_USER_PROFILE:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        profile: action.profile
+      });
+
+    default:
+      return state;
+  }
+};
+
+const AddPostActionCreator = () => ({
+  type: ADD_POST
+});
+const UpdateNewPostText = text => ({
+  type: UPDATE_NEW_POST_TEXT,
+  newText: text
+});
+const setUsersProfile = profile => ({
+  type: SET_USER_PROFILE,
+  profile
+});
+/* harmony default export */ __webpack_exports__["default"] = (profileReducer);
+
+/***/ }),
+
+/***/ "./src/Redux/redux-store.js":
+/*!**********************************!*\
+  !*** ./src/Redux/redux-store.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./profile-reducer */ "./src/Redux/profile-reducer.js");
+/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/Redux/dialogs-reducer.js");
+/* harmony import */ var _users_reduser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users-reduser */ "./src/Redux/users-reduser.js");
+
+
+
+
+let reducers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  profilePage: _profile_reducer__WEBPACK_IMPORTED_MODULE_1__["default"],
+  dialogsPage: _dialogs_reducer__WEBPACK_IMPORTED_MODULE_2__["default"],
+  usersPage: _users_reduser__WEBPACK_IMPORTED_MODULE_3__["default"]
+});
+let store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(reducers);
+/* harmony default export */ __webpack_exports__["default"] = (store);
+
+/***/ }),
+
+/***/ "./src/Redux/users-reduser.js":
+/*!************************************!*\
+  !*** ./src/Redux/users-reduser.js ***!
+  \************************************/
+/*! exports provided: follow, unfollow, setUsers, setCurrentPage, setTotalUsersCount, toggleIsFetching, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "follow", function() { return follow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unfollow", function() { return unfollow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUsers", function() { return setUsers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setCurrentPage", function() { return setCurrentPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setTotalUsersCount", function() { return setTotalUsersCount; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toggleIsFetching", function() { return toggleIsFetching; });
+/* harmony import */ var D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread.js");
+
+const FOLLOW = 'FOLLOW';
+const UNFOLLOW = 'UNFOLLOW';
+const SET_USER = 'SET_USER';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT';
+const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
+let initialState = {
+  users: [],
+  pageSize: 10,
+  totalUsersCount: 0,
+  currentPage: 1,
+  isFetching: true
+};
+
+const usersReduser = (state = initialState, action) => {
+  switch (action.type) {
+    case FOLLOW:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        users: state.users.map(u => {
+          if (u.id === action.usersId) {
+            return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, u, {
+              followed: true
+            });
+          }
+
+          return u;
+        })
+      });
+
+    case UNFOLLOW:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        users: state.users.map(u => {
+          if (u.id === action.usersId) {
+            return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, u, {
+              followed: false
+            });
+          }
+
+          return u;
+        })
+      });
+
+    case SET_USER:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        users: action.users
+      });
+
+    case SET_CURRENT_PAGE:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        currentPage: action.currentPage
+      });
+
+    case SET_TOTAL_USERS_COUNT:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        totalUsersCount: action.count
+      });
+
+    case TOGGLE_IS_FETCHING:
+      return Object(D_reactTest_react_React_js_React_js_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
+        isFetching: action.isFetching
+      });
+
+    default:
+      return state;
+  }
+};
+
+const follow = usersId => ({
+  type: FOLLOW,
+  usersId
+});
+const unfollow = usersId => ({
+  type: UNFOLLOW,
+  usersId
+});
+const setUsers = users => ({
+  type: SET_USER,
+  users
+});
+const setCurrentPage = currentPage => ({
+  type: SET_CURRENT_PAGE,
+  currentPage
+});
+const setTotalUsersCount = totalUsersCount => ({
+  type: SET_TOTAL_USERS_COUNT,
+  count: totalUsersCount
+});
+const toggleIsFetching = isFetching => ({
+  type: TOGGLE_IS_FETCHING,
+  isFetching
+});
+/* harmony default export */ __webpack_exports__["default"] = (usersReduser);
+
+/***/ }),
+
+/***/ "./src/assets/images/808.gif":
+/*!***********************************!*\
+  !*** ./src/assets/images/808.gif ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/808.481ffe53.gif";
+
+/***/ }),
+
+/***/ "./src/assets/images/user.png":
+/*!************************************!*\
+  !*** ./src/assets/images/user.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/user.d93090e6.png";
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/DialogItem/DialogItem.jsx":
+/*!**********************************************************!*\
+  !*** ./src/components/Dialogs/DialogItem/DialogItem.jsx ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Dialogs\\DialogItem\\DialogItem.jsx";
+
+
+
+
+class DialogItem extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+    this.path = "/dialogs/" + this.props.id;
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialog + ' ' + _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: this.path,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, this.props.name));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (DialogItem);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Dialogs.jsx":
+/*!********************************************!*\
+  !*** ./src/components/Dialogs/Dialogs.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DialogItem/DialogItem */ "./src/components/Dialogs/DialogItem/DialogItem.jsx");
+/* harmony import */ var _Messege_Messege__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Messege/Messege */ "./src/components/Dialogs/Messege/Messege.jsx");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Dialogs\\Dialogs.jsx";
+
+
+
+
+
+const Dialogs = props => {
+  let state = props.dialogsPage;
+  let dialogsElements = state.dialogs.map(d => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    name: d.name,
+    id: d.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }));
+  let messegesElement = state.messeges.map(m => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Messege_Messege__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    messege: m.messege,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }));
+  let newMessegeBody = state.newMessegeBody;
+
+  let onSendMessegeClick = () => {
+    props.sendMessege();
+  };
+
+  let onNewMessegeChange = e => {
+    let body = e.target.value;
+    props.UpdateNewMessegeBody(body);
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialogs,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialogs_items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialog + ' ' + _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, dialogsElements)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.messeges,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, messegesElement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    placeholder: "enter messege",
+    value: newMessegeBody,
+    onChange: onNewMessegeChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: onSendMessegeClick,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, "Add messege"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Dialogs);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Dialogs.module.css":
+/*!***************************************************!*\
+  !*** ./src/components/Dialogs/Dialogs.module.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/DialogsConteiner.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/Dialogs/DialogsConteiner.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Redux/dialogs-reducer */ "./src/Redux/dialogs-reducer.js");
+/* harmony import */ var _Dialogs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dialogs */ "./src/components/Dialogs/Dialogs.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+
+
+
+
+const mapStateToProps = state => {
+  return {
+    dialogsPage: state.dialogsPage
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    sendMessege: () => {
+      dispatch(Object(_Redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__["sendMessege"])());
+    },
+    UpdateNewMessegeBody: body => {
+      dispatch(Object(_Redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__["UpdateNewMessegeCreator"])(body));
+    }
+  };
+};
+
+const DialogsConteiner = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(_Dialogs__WEBPACK_IMPORTED_MODULE_2__["default"]);
+/* harmony default export */ __webpack_exports__["default"] = (DialogsConteiner);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Messege/Messege.jsx":
+/*!****************************************************!*\
+  !*** ./src/components/Dialogs/Messege/Messege.jsx ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Dialogs\\Messege\\Messege.jsx";
+
+
+
+class Messege extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.messege,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, this.props.messege);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Messege);
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.jsx":
+/*!******************************************!*\
+  !*** ./src/components/Header/Header.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.module.css */ "./src/components/Header/Header.module.css");
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Header\\Header.jsx";
+
+
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+      className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__logo,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "https://www.freelogodesign.org/Content/img/logo-ex-7.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/Header/Header.module.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Music/Music.jsx":
+/*!****************************************!*\
+  !*** ./src/components/Music/Music.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Music_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Music.module.css */ "./src/components/Music/Music.module.css");
+/* harmony import */ var _Music_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Music_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Music\\Music.jsx";
+
+
+
+class Music extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Music_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, "Music"));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Music);
+
+/***/ }),
+
+/***/ "./src/components/Music/Music.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/Music/Music.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Navbar/Nav.jsx":
+/*!***************************************!*\
+  !*** ./src/components/Navbar/Nav.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav.module.css */ "./src/components/Navbar/Nav.module.css");
+/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Navbar\\Nav.jsx";
+
+
+
+
+class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.nav,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/profile",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, "Profile")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/dialogs",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, "Masegges")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/news",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, "News")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/music",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, "Music")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/settings",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, "Settings")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+      to: "/users",
+      activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, "Users")));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./src/components/Navbar/Nav.module.css":
+/*!**********************************************!*\
+  !*** ./src/components/Navbar/Nav.module.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navbar/Nav.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navbar/Nav.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navbar/Nav.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/News/News.jsx":
+/*!**************************************!*\
+  !*** ./src/components/News/News.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _News_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./News.module.css */ "./src/components/News/News.module.css");
+/* harmony import */ var _News_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_News_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\News\\News.jsx";
+
+
+
+class News extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _News_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, "News"));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (News);
+
+/***/ }),
+
+/***/ "./src/components/News/News.module.css":
+/*!*********************************************!*\
+  !*** ./src/components/News/News.module.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Profile/MyPosts/MyPosts.jsx":
+/*!****************************************************!*\
+  !*** ./src/components/Profile/MyPosts/MyPosts.jsx ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyPosts.module.css */ "./src/components/Profile/MyPosts/MyPosts.module.css");
+/* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Post_Posts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Post/Posts */ "./src/components/Profile/MyPosts/Post/Posts.jsx");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\MyPosts\\MyPosts.jsx";
+
+
+
+
+const MyPosts = props => {
+  let postsElements = props.posts.map(p => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Post_Posts__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    message: p.messege,
+    likesCount: p.likesCount,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }));
+  let newPostElement = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+
+  let addPost = () => {
+    props.AddPostActionCreator();
+  };
+
+  let onPostChenge = () => {
+    let text = newPostElement.current.value;
+    props.UpdateNewPostText(text);
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "My Post"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    onChange: onPostChenge,
+    ref: newPostElement,
+    value: props.newPostText,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: addPost,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, "Add Post"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.posts,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, postsElements));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MyPosts);
+
+/***/ }),
+
+/***/ "./src/components/Profile/MyPosts/MyPosts.module.css":
+/*!***********************************************************!*\
+  !*** ./src/components/Profile/MyPosts/MyPosts.module.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/MyPosts.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/MyPosts.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/MyPosts.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Profile/MyPosts/MyPostsConteiner.jsx":
+/*!*************************************************************!*\
+  !*** ./src/components/Profile/MyPosts/MyPostsConteiner.jsx ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../Redux/profile-reducer */ "./src/Redux/profile-reducer.js");
+/* harmony import */ var _MyPosts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts */ "./src/components/Profile/MyPosts/MyPosts.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+
+
+
+
+const mapStateToProps = state => {
+  return {
+    posts: state.profilePage.posts,
+    newPostText: state.profilePage.newPostText
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    UpdateNewPostText: text => {
+      let action = Object(_Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__["UpdateNewPostText"])(text);
+      dispatch(action);
+    },
+    AddPostActionCreator: () => {
+      dispatch(Object(_Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__["AddPostActionCreator"])());
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(_MyPosts__WEBPACK_IMPORTED_MODULE_2__["default"]));
+
+/***/ }),
+
+/***/ "./src/components/Profile/MyPosts/Post/Posts.jsx":
+/*!*******************************************************!*\
+  !*** ./src/components/Profile/MyPosts/Post/Posts.jsx ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Posts_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Posts.module.css */ "./src/components/Profile/MyPosts/Post/Posts.module.css");
+/* harmony import */ var _Posts_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Posts_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\MyPosts\\Post\\Posts.jsx";
+
+
+
+class Posts extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Posts_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "http://gloria-mur.ru/wp-content/uploads/2017/05/avatar1-740x463.jpg",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }), this.props.message, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, "Like"), this.props.likesCount));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Posts);
+
+/***/ }),
+
+/***/ "./src/components/Profile/MyPosts/Post/Posts.module.css":
+/*!**************************************************************!*\
+  !*** ./src/components/Profile/MyPosts/Post/Posts.module.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Posts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/Post/Posts.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Posts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/Post/Posts.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Posts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/MyPosts/Post/Posts.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Profile/Profile.jsx":
+/*!********************************************!*\
+  !*** ./src/components/Profile/Profile.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Profile_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Profile.module.css */ "./src/components/Profile/Profile.module.css");
+/* harmony import */ var _Profile_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Profile_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProfileInfo/ProfileInfo */ "./src/components/Profile/ProfileInfo/ProfileInfo.jsx");
+/* harmony import */ var _MyPosts_MyPostsConteiner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MyPosts/MyPostsConteiner */ "./src/components/Profile/MyPosts/MyPostsConteiner.jsx");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\Profile.jsx";
+
+
+
+
+
+class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Profile_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MyPosts_MyPostsConteiner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Profile);
+
+/***/ }),
+
+/***/ "./src/components/Profile/Profile.module.css":
+/*!***************************************************!*\
+  !*** ./src/components/Profile/Profile.module.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Profile.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/Profile.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Profile.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/Profile.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Profile.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/Profile.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Profile/ProfileConteiner.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/Profile/ProfileConteiner.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Profile__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Profile */ "./src/components/Profile/Profile.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Redux/profile-reducer */ "./src/Redux/profile-reducer.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\ProfileConteiner.jsx";
+
+
+
+
+
+
+class ProfileContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    axios__WEBPACK_IMPORTED_MODULE_2__["get"]("https://social-network.samuraijs.com/api/1.0/profile/2").then(response => {
+      this.props.setUsersProfile(response.data);
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Profile__WEBPACK_IMPORTED_MODULE_1__["default"], Object.assign({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }));
+  }
+
+}
+
+let mapStateToProps = state => ({
+  A: 13
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, {
+  setUsersProfile: _Redux_profile_reducer__WEBPACK_IMPORTED_MODULE_4__["setUsersProfile"]
+})(ProfileContainer));
+
+/***/ }),
+
+/***/ "./src/components/Profile/ProfileInfo/ProfileInfo.jsx":
+/*!************************************************************!*\
+  !*** ./src/components/Profile/ProfileInfo/ProfileInfo.jsx ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo.module.css */ "./src/components/Profile/ProfileInfo/ProfileInfo.module.css");
+/* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Profile\\ProfileInfo\\ProfileInfo.jsx";
+
+
+
+class ProfileInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.descriptionBlock,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, "avatar")));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ProfileInfo);
+
+/***/ }),
+
+/***/ "./src/components/Profile/ProfileInfo/ProfileInfo.module.css":
+/*!*******************************************************************!*\
+  !*** ./src/components/Profile/ProfileInfo/ProfileInfo.module.css ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/ProfileInfo/ProfileInfo.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/ProfileInfo/ProfileInfo.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Profile/ProfileInfo/ProfileInfo.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Settings/Settings.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/Settings/Settings.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Settings_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Settings.module.css */ "./src/components/Settings/Settings.module.css");
+/* harmony import */ var _Settings_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Settings_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Settings\\Settings.jsx";
+
+
+
+class Settings extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _Settings_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, "Settings For"));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Settings);
+
+/***/ }),
+
+/***/ "./src/components/Settings/Settings.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/Settings/Settings.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Users/Users.jsx":
+/*!****************************************!*\
+  !*** ./src/components/Users/Users.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Users.module.css */ "./src/components/Users/Users.module.css");
+/* harmony import */ var _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_user_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/user.png */ "./src/assets/images/user.png");
+/* harmony import */ var _assets_images_user_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_user_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Users\\Users.jsx";
+
+
+
+
+
+let Users = props => {
+  let pageCount = Math.ceil(props.totalUsersCount / props.pageSize);
+  let pages = [];
+
+  for (let i = 1; i <= pageCount; i++) {
+    pages.push(i);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, pages.map(p => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: props.currentPage === p && _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.selectedPage,
+      onClick: e => {
+        props.onPageChange(p);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: undefined
+    }, p);
+  })), props.users.map(u => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: u.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+    to: '/profile' + u.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: u.photos.small != null ? u.photos.small : _assets_images_user_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.ava,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, u.followed ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => {
+      props.unfollow(u.id);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, "Unfollow") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => {
+      props.follow(u.id);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  }, "Follow"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }, u.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, u.status)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Users);
+
+/***/ }),
+
+/***/ "./src/components/Users/Users.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/Users/Users.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Users/UsersConteiner.jsx":
+/*!*************************************************!*\
+  !*** ./src/components/Users/UsersConteiner.jsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Redux/users-reduser */ "./src/Redux/users-reduser.js");
+/* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _common_preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/preloader/Preloader */ "./src/components/common/preloader/Preloader.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\Users\\UsersConteiner.jsx";
+
+
+
+
+
+
+
+class UsersContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.onPageChange = pageNumder => {
+      this.props.setCurrentPage(pageNumder);
+      this.props.toggleIsFetching(true);
+      axios__WEBPACK_IMPORTED_MODULE_4__["get"]("https://social-network.samuraijs.com/api/1.0/users?page=".concat(pageNumder, "&count=").concat(this.props.pageSize)).then(response => {
+        this.props.toggleIsFetching(false);
+        this.props.setUsers(response.data.items);
+      });
+    };
+  }
+
+  componentDidMount() {
+    this.props.toggleIsFetching(true);
+    axios__WEBPACK_IMPORTED_MODULE_4__["get"]("https://social-network.samuraijs.com/api/1.0/users?page=".concat(this.props.currentPage, "&count=").concat(this.props.pageSize)).then(response => {
+      this.props.toggleIsFetching(false);
+      this.props.setUsers(response.data.items);
+      this.props.setTotalUsersCount(response.data.totalCount);
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, this.props.isFetching ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }) : null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Users__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      totalUsersCount: this.props.totalUsersCount,
+      pageSize: this.props.pageSize,
+      currentPage: this.props.currentPage,
+      onPageChange: this.onPageChange,
+      users: this.props.users,
+      follow: this.props.follow,
+      unfollow: this.props.unfollow,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }));
+  }
+
+}
+
+let mapStateToProps = state => {
+  return {
+    users: state.usersPage.users,
+    pageSize: state.usersPage.pageSize,
+    totalUsersCount: state.usersPage.totalUsersCount,
+    currentPage: state.usersPage.currentPage,
+    isFetching: state.usersPage.isFetching
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, {
+  follow: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["follow"],
+  unfollow: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["unfollow"],
+  setUsers: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["setUsers"],
+  setCurrentPage: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["setCurrentPage"],
+  setTotalUsersCount: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["setTotalUsersCount"],
+  toggleIsFetching: _Redux_users_reduser__WEBPACK_IMPORTED_MODULE_2__["toggleIsFetching"]
+})(UsersContainer));
+
+/***/ }),
+
+/***/ "./src/components/common/preloader/Preloader.js":
+/*!******************************************************!*\
+  !*** ./src/components/common/preloader/Preloader.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_808_gif__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/808.gif */ "./src/assets/images/808.gif");
+/* harmony import */ var _assets_images_808_gif__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_808_gif__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\components\\common\\preloader\\Preloader.js";
+
+
+
+let Preloader = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_808_gif__WEBPACK_IMPORTED_MODULE_1___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Preloader);
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+/* harmony import */ var _Redux_redux_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Redux/redux-store */ "./src/Redux/redux-store.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+var _jsxFileName = "D:\\\u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435\\reactTest\\react\\React-js\\React-js\\src\\index.js";
+
+
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_3___default.a.render(react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["BrowserRouter"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_7__["Provider"], {
+  store: _Redux_redux_store__WEBPACK_IMPORTED_MODULE_1__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}))), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_0__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! D:\рабочее окружение\reactTest\react\React-js\React-js\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! D:\рабочее окружение\reactTest\react\React-js\React-js\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime~main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

@@ -1,17 +1,19 @@
 import React from 'react';
 import s from './ProfileInfo.module.css';
+import Preloader from '../../common/preloader/Preloader';
 
 
-class ProfileInfo extends React.Component {
-  render() {
+const ProfileInfo =(props) => {
+ if(!props.profile) {
+   return <Preloader />
+ }
     return <div className={s.content}>
       <div>
         <div className={s.descriptionBlock}>
-          avatar
+         <img src={props.profile.photos.large} />
         </div>
       </div>
     </div>
-  }
 }
 
 
