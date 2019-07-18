@@ -7,6 +7,7 @@ class ProfileInfo extends React.Component {
     return <div className={s.content}>
       <div>
         <div className={s.descriptionBlock}>
+          avatar
         </div>
       </div>
     </div>

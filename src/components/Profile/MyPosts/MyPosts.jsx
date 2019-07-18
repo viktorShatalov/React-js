@@ -3,11 +3,13 @@ import s from './MyPosts.module.css';
 import Posts from './Post/Posts';
 
 class MyPosts extends React.Component {
-
-  postsElements =
+  constructor(props) {
+    super(props);
+    this.postsElements =
     this.props.posts.map(p => <Posts message={p.messege} likesCount={p.likesCount} />);
-  newPostElement = React.createRef();
-
+    this.newPostElement = React.createRef();
+  }
+ 
   addPost = () => {
     this.props.AddPostActionCreator();
   }
