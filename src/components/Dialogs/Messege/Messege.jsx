@@ -1,16 +1,12 @@
 import React from 'react';
 import s from './../Dialogs.module.css';
 
-
-const Messege = (props) => {
-  
-  
-  return (
-    <div className={s.messege}>
-     {props.messege}
+class Messege extends React.Component {
+  render() {
+    return <div className={s.messege}>
+     {this.props.messege}
     </div>
-  )
+  }
 }
-
 
 export default Messege;

@@ -4,39 +4,39 @@ import DialogItem from './DialogItem/DialogItem';
 import Messege from './Messege/Messege';
 
 
+class Dialogs extends React.Component {
+  
+  state = this.props.dialogsPage;
+  dialogsElements = this.state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />);
+  messegesElement = this.state.messeges.map(m => <Messege messege={m.messege} />)
+  newMessegeBody = this.state.newMessegeBody;
 
-const Dialogs = (props) => {
-  let state = props.dialogsPage;
-  let dialogsElements = state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />);
-  let messegesElement = state.messeges.map(m => <Messege messege={m.messege} />)
-  let newMessegeBody = state.newMessegeBody;
-
-  let onSendMessegeClick = () => {
-    props.sendMessege();
+  onSendMessegeClick = () => {
+    this.props.sendMessege();
   }
 
-  let onNewMessegeChange = (e) => {
-    let body = e.target.value;
-    props.UpdateNewMessegeBody(body);
-    
+  onNewMessegeChange = (e) => {
+    this.body = e.target.value;
+    this.props.UpdateNewMessegeBody(this.body);
   }
-  return (
-    <div className={s.dialogs}>
+
+  render() {
+    return <div className={s.dialogs}>
       <div className={s.dialogs_items}>
         <div className={s.dialog + ' ' + s.active}>
-          {dialogsElements}
+          {this.dialogsElements}
         </div>
       </div>
       <div className={s.messeges}>
-        <div>{messegesElement}</div>
+        <div>{this.messegesElement}</div>
         <div>
-          <textarea placeholder="enter messege" value={newMessegeBody} onChange={onNewMessegeChange} />
+          <textarea placeholder="enter messege" value={this.newMessegeBody} onChange={this.onNewMessegeChange} />
         </div>
         <div>
-          <button onClick={onSendMessegeClick}>Add messege</button>
+          <button onClick={this.onSendMessegeClick}>Add messege</button>
         </div>
       </div>
     </div>
-  )
-}
+  }
+} 
 export default Dialogs;

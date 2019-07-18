@@ -2,12 +2,16 @@ import React from 'react';
 import s from './ProfileInfo.module.css';
 
 
-const ProfileInfo = () => {
-  return <div className={s.content}>
-    <div>
-      <div className={s.descriptionBlock}>
+class ProfileInfo extends React.Component {
+  render() {
+    return <div className={s.content}>
+      <div>
+        <div className={s.descriptionBlock}>
+        </div>
       </div>
     </div>
-  </div>
+  }
 }
+
+
 export default ProfileInfo;

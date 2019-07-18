@@ -4,12 +4,13 @@ import ProfileInfo from './ProfileInfo/ProfileInfo'
 import MyPostsConteiner from './MyPosts/MyPostsConteiner';
 
 
-const Profile = (props) => {
+class Profile extends React.Component {
+  render() {
+    return <div className={s.content}>
+      <ProfileInfo />
+      <MyPostsConteiner />
 
-  return <div className={s.content}>
-    <ProfileInfo />
-    <MyPostsConteiner  />
-
-  </div>
+    </div>
+  }
 }
 export default Profile;
