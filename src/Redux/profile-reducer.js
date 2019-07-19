@@ -8,8 +8,7 @@ let initialState = {
                 { id: 1, messege: ' post', likesCount: 153333 },
                 { id: 1, messege: 'It my first post', likesCount: 1 },
                 { id: 1, messege: 'agsgslga', likesCount: 11 },
-                { id: 2, messege: 'hi,how are you?', likesCount: 5 }
-            ],
+                { id: 2, messege: 'hi,how are you?', likesCount: 5 } ],
             profile: null
 
 };

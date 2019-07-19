@@ -5,3 +5,9 @@
 .header img {
   width: 41px;
 }
+.loginBlock{
+   float: right;
+}
+.loginBlock a {
+  color: rgb(0, 0, 0);
+}
