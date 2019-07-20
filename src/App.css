@@ -4,9 +4,11 @@
   "h h "
   "n c";
   grid-template-rows: 41px ;
+  grid-template-rows: 42px 1fr;
   grid-template-columns: 2fr 10fr;
 }
 .app-wrapper-content{
   grid-area: c;
   background-color: rgba(204, 204, 204, 0.349);
+  background-color: #CCCCCC;
 }
