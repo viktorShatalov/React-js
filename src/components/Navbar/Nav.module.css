@@ -2,6 +2,7 @@
   grid-area: n;
   padding: 20px;
   background-color: rgba(204, 204, 204, 0.356);
+  background-color: #CCCCCC;
 }
 .item a{
   color: black;
