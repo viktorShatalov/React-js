@@ -4,12 +4,12 @@
 }
 .header img {
   width: 81px;
-  height: 41px;
-  margin:0 22px;
-}
-.loginBlock{
-   float: right;
+  height: 50px;
+  margin:5px 23px;
 }
 .loginBlock a {
   color: rgb(0, 0, 0);
+}
+.loginBlock {
+  float: right;
 }
