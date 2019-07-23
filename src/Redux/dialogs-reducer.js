@@ -3,19 +3,11 @@ const ADD_MESSEGE = 'ADD-MESSEGE';
 
 let initialState = {
     dialogs: [
-        { id: 1, name: 'Dima' },
-        { id: 2, name: 'Sveta' },
-        { id: 3, name: 'Genya' },
-        { id: 4, name: 'Ghon' },
-        { id: 5, name: 'Igor' },
-        { id: 6, name: 'Jhack' }
+        { id: 1, name: 'my name' }
+       
     ],
     messeges: [
-        { id: 1, messege: 'Hi' },
-        { id: 2, messege: 'Hello' },
-        { id: 3, messege: 'yo' },
-        { id: 4, messege: 'Yo' },
-        { id: 5, messege: 'Yo' }
+        { id: 1, messege: 'Hi' }
     ]
 };
 
@@ -31,7 +23,7 @@ const dialogsReducer = (state = initialState, action) => {
             return {
                 ...state,
                 newMessegeBody : '',
-                messeges: [...state.messeges, {id:6,messege:newMessege}]
+                messeges: [...state.messeges, {id:2,messege:newMessege}]
             };
         default:
             return state;
