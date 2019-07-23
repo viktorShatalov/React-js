@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginForm from './form/LoginForm';
+import LoginForm from '../form/loginPorm/LoginForm';
 import { reduxForm } from 'redux-form'
 
 const Login = (props) => {

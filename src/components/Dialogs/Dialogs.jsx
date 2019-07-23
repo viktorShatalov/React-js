@@ -31,14 +31,26 @@ const Dialogs = (props) => {
       </div>
       <div className={s.messeges}>
         <div>{messegesElement}</div>
-        <div>
-          <textarea placeholder="enter messege" value={newMessegeBody} onChange={onNewMessegeChange} />
-        </div>
-        <div>
-          <button onClick={onSendMessegeClick}>Add messege</button>
-        </div>
+
       </div>
     </div>
   )
 }
+
+const AddMessegeForm = (props) => {
+  return (
+    <form onSubmit={props.hendleSubmit}>
+      <div>
+        <textarea
+          placeholder="enter messege"
+          value={newMessegeBody}
+          onChange={onNewMessegeChange} />
+      </div>
+      <div>
+        <button onClick={onSendMessegeClick}>Add messege</button>
+      </div>
+    </form>
+  )
+}
+
 export default Dialogs;

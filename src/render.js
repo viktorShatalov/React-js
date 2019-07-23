@@ -5,10 +5,9 @@ import App from './App';
 import { addPost } from './Redux/state';
 
 
-
 export let renderEntireTree = (state) => {
     ReactDOM.render
-        (<App state={state} addPost={addPost} />, 
+        (<App state={state} addPost={addPost} />,
             document.getElementById('root'));
 }
 
