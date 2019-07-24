@@ -2,15 +2,14 @@ import React from 'react';
 import s from './MyPosts.module.css';
 import Posts from './Post/Posts';
 import { Field, reduxForm } from 'redux-form';
+import { required, maxLengthCreator } from '../../../utils/validators/validator';
+import { Textarea } from '../../common/FormValidationControl/FormControl';
+
 
 const MyPosts = (props) => {
   let postsElements =
     props.posts.map(p => <Posts key={p.id} message={p.messege} likesCount={p.likesCount} />);
-  let newPostElement = React.createRef();
-  let addPost = () => {
-    props.AddPostActionCreator();
-  }
-  
+
   let addNewPost = (values) => {
     props.AddPostAC(values.newPostElement);
   }
@@ -28,11 +27,17 @@ const MyPosts = (props) => {
   )
 }
 
+const maxLength10 = maxLengthCreator(10);
+
 const AddPostForm = (props) => {
   return <div>
     <form onSubmit={props.handleSubmit}>
       <div>
-        <Field component='textarea' name='newPostElement' placeholder='Создайте пост' />
+        <Field
+          validate={[required, maxLength10]}
+          component={Textarea}
+          name='newPostElement'
+          placeholder='Создайте пост' />
       </div>
       <div>
         <button>Add Post</button>
