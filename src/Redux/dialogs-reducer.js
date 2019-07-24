@@ -1,35 +1,28 @@
-const UPDATE_NEW_MESSEGE_BODY = "UPDATE-NEW-MESSEGE-BODY";
 const ADD_MESSEGE = 'ADD-MESSEGE';
 
 let initialState = {
     dialogs: [
-        { id: 1, name: 'my name' }
-       
+        // { id: 1, name: 'Name' } для теста разкоментировать
+
     ],
     messeges: [
-        { id: 1, messege: 'Hi' }
+        // { id: 1, messege: 'Hi' } для теста разкоментировать
     ]
 };
 
 const dialogsReducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'UPDATE-NEW-MESSEGE-BODY':
-            return {
-                ...state,
-                newMessegeBody: action.newMessege
-            };
         case 'ADD-MESSEGE':
-            let newMessege = state.newMessegeBody;
+            let body = action.newMessegeBody;
             return {
                 ...state,
-                newMessegeBody : '',
-                messeges: [...state.messeges, {id:2,messege:newMessege}]
+                messeges: [...state.messeges, { id: 2, messege: body }]
             };
         default:
             return state;
     }
 
 }
-export const sendMessege = () => ({ type: ADD_MESSEGE })
-export const UpdateNewMessegeCreator = (body) => ({ type: UPDATE_NEW_MESSEGE_BODY, newMessege: body })
+export const sendMessege = (newMessegeBody) => ({ type: ADD_MESSEGE, newMessegeBody })
+
 export default dialogsReducer;
