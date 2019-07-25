@@ -4,29 +4,31 @@ import { Input } from '../../common/FormValidationControl/FormControl';
 import { required, maxLengthCreator } from '../../../utils/validators/validator';
 
 
-const maxLength12 = maxLengthCreator(12);
+
+const maxLength20 = maxLengthCreator(20);
 const LoginForm = (props) => {
     return <div>
         <form onSubmit={props.handleSubmit}>
             <div>
                 <Field
-                    validate={[required, maxLength12]}
-                    placeholder={"login"}
+                    validate={[required, maxLength20]}
+                    placeholder={"email"}
                     component={Input}
-                    name={"login"} />
+                    name={"email"} />
             </div>
             <div>
                 <Field
-                    validate={[required, maxLength12]}
+                    validate={[required, maxLength20]}
                     placeholder={"password"}
                     component={Input}
+                    type = "password"
                     name={"password"} />
             </div>
             <div>
                 <Field
                     type={"checkbox"}
                     component={Input}
-                    name={"remember me"} />remember me
+                    name={"rememberMe"} />remember me
             </div>
             <button>login</button>
         </form>
