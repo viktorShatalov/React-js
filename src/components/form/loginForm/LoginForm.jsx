@@ -1,4 +1,5 @@
 import React from 'react';
+import style from '../../common/FormValidationControl/FormControl.module.css';
 import { Field } from 'redux-form'
 import { Input } from '../../common/FormValidationControl/FormControl';
 import { required, maxLengthCreator } from '../../../utils/validators/validator';
@@ -30,6 +31,9 @@ const LoginForm = (props) => {
                     component={Input}
                     name={"rememberMe"} />remember me
             </div>
+            {props.error && <div className = {style.form_summary_error}>
+               {props.error}
+            </div>}
             <button>login</button>
         </form>
     </div>
