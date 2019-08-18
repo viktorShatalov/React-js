@@ -28,7 +28,7 @@ class App extends React.Component {
 
         return <div className='app-wrapper' >
             < HeaderContainer />
-            <Navbar />
+            < Navbar />
             <div className='app-wrapper-content'     >
 
                 <Route path='/dialogs'
