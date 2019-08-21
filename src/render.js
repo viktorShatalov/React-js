@@ -10,8 +10,3 @@ export let renderEntireTree = (state) => {
         (<App state={state} addPost={addPost} />,
             document.getElementById('root'));
 }
-
-
-
-
-
