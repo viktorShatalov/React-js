@@ -10,6 +10,7 @@ import UsersContainer from './components/Users/UsersConteiner';
 import ProfileContainer from './components/Profile/ProfileConteiner';
 import HeaderContainer from './components/Header/HeaderContainer';
 import Login from './components/login/Login';
+import Sidebar from './components/sidebar/Sidebar'
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import { compose } from 'redux';
@@ -53,8 +54,8 @@ class App extends React.Component {
 
                 < Route path='/news'
                     render={() => < News />} />
-
             </div>
+            <Sidebar />
         </div >
     }
 }

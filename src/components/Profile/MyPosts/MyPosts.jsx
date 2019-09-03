@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import s from './MyPosts.module.css';
 import Posts from './Post/Posts';
 import { Field, reduxForm } from 'redux-form';
@@ -6,7 +6,8 @@ import { required, maxLengthCreator } from '../../../utils/validators/validator'
 import { Textarea } from '../../common/FormValidationControl/FormControl';
 
 
-const MyPosts = (props) => {
+const MyPosts = React.memo(props => {
+
   let postsElements =
     props.posts.map(p => <Posts key={p.id} message={p.messege} likesCount={p.likesCount} />);
 
@@ -25,7 +26,8 @@ const MyPosts = (props) => {
       </div>
     </div>
   )
-}
+})
+
 
 const maxLength10 = maxLengthCreator(10);
 
