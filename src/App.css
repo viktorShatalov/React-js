@@ -1,6 +1,9 @@
 .app-wrapper {
     display: grid;
-    grid-template-areas: "h h h" "n c s" "n c s";
+    grid-template-areas: 
+    "h h h" 
+    "n c s" 
+    "n c s";
     grid-template-rows: 60px;
     grid-template-columns: 2fr 10fr 2fr;
 }
@@ -9,3 +12,4 @@
     grid-area: c;
     background-color: rgba(204, 204, 204, 0.35);
 }
+
