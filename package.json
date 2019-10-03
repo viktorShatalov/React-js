@@ -2,7 +2,7 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://viktr1432.github.io/deployReactApp",
+    "homepage": "https://viktr1432.github.io/React-js/",
     "dependencies": {
         "axios": "^0.19.0",
         "react": "^16.8.6",
