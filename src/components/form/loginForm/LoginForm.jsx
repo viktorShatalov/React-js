@@ -7,9 +7,9 @@ import { required, maxLengthCreator } from '../../../utils/validators/validator'
 
 
 const maxLength20 = maxLengthCreator(20);
-const LoginForm = (props) => {
+const LoginForm = ({handleSubmit,error}) => {
     return <div>
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <div>
                 <Field
                     validate={[required, maxLength20]}
@@ -31,8 +31,8 @@ const LoginForm = (props) => {
                     component={Input}
                     name={"rememberMe"} />remember me
             </div>
-            {props.error && <div className = {style.form_summary_error}>
-               {props.error}
+            {error && <div className = {style.form_summary_error}>
+               {error}
             </div>}
             <button>login</button>
         </form>
