@@ -1,8 +1,7 @@
 import { authAPI } from '../../src/api/api';
 import { stopSubmit } from 'redux-form';
-import { async } from 'q';
 
-const SET_USER_DATA = 'anti-jobs/auth/SET_USER_DATA';
+const SET_USER_DATA = 'SET_USER_DATA';
 
 let initialState = {
     id: null,
@@ -26,16 +25,15 @@ const authReduser = (state = initialState, action) => {
 
 export const setAuthUserData = (id, email, login, isAuth) => ({ type: SET_USER_DATA, payload: { id, email, login, isAuth } })
 
-export const getAuthUserData = () => async(dispatch) => {
+export const getAuthUserData = () => async (dispatch) => {
     let response = await authAPI.me();
     if (response.data.resultCode === 0) {
         let { id, email, login, } = response.data.data;
         dispatch(setAuthUserData(id, email, login, true));
     }
-
 }
 
-export const login = (email, password, rememberMe) => async(dispatch) => {
+export const login = (email, password, rememberMe) => async (dispatch) => {
 
 
     let response = await authAPI.login(email, password, rememberMe);
@@ -48,7 +46,7 @@ export const login = (email, password, rememberMe) => async(dispatch) => {
 
 }
 
-export const logout = () => async(dispatch) => {
+export const logout = () => async (dispatch) => {
     let response = await authAPI.logout();
     if (response.data.resultCode === 0) {
         dispatch(setAuthUserData(null, null, null, false));

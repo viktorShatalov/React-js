@@ -1,5 +1,4 @@
 import { usersAPI, profileAPI } from '../../src/api/api';
-import { async } from 'q';
 
 
 const ADD_POST = 'ADD-POST';
